@@ -3,6 +3,9 @@
 #include <boost/array.hpp>
 #include <iostream>
 #include <sstream>
+#include <fstream>
+#include <string>
+#include <ctime>
 #include <rclcpp/rclcpp.hpp>
 #include <rclcpp_components/register_node_macro.hpp>
 #include <std_msgs/msg/string.hpp>
@@ -22,11 +25,14 @@ public:
     io_service.run();
     subscription_ = this->create_subscription<ackermann_msgs::msg::AckermannDriveStamped>("/comms/drive", 10, std::bind(&UDPClient::udp_callback, this, std::placeholders::_1));
     state_publisher_ = this->create_publisher<std_msgs::msg::String>("kart/state", 10);
+    time_t timestamp;
+    time(&timestamp);
+    state_log_file_output.open("state_log" + std::string(timestamp) + ".txt")
     do_receive();
    }
 private:
-   
-    const std::string JETSON_IP = "192.168.20.3";
+    std::ofstream state_log_file_output;
+    const std::string JETSON_IP = "192.168.55.1";
     boost::asio::io_service io_service;
     udp::socket socket;
     udp::endpoint receiver_endpoint;
@@ -66,8 +72,12 @@ private:
         std::string incoming(recv_buffer.begin(), recv_buffer.begin()+bytes_transferred);
         std::vector<std::string> split_info = splitString(incoming, ';');
         // ANGLE=%f;SPEED=%f;STATE=<STOPPED|OFF|MANUAL|AUTONOMOUS>
+        time_t timestamp;
+        time(&timestamp);
+        state_log_file_output << ctime(&timestamp) << "," << incoming << std::endl; 
         if (split_info[2].compare(std::string("STOPPED")) == 0)
         {
+            state_log_file_output.close();
             rclcpp::shutdown();
         }
         
