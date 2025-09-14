@@ -1,0 +1,21 @@
+[3.392s] Invoking command in '/home/roboracing/Desktop/roboracing-rigatoniv-base/launch_robot': PYTHONPATH=/home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/launch_robot build --build-base /home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/build install --record /home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/install.log --single-version-externally-managed install_data
+[4.723s] running egg_info
+[4.725s] writing ../build/launch_robot/launch_robot.egg-info/PKG-INFO
+[4.726s] writing dependency_links to ../build/launch_robot/launch_robot.egg-info/dependency_links.txt
+[4.726s] writing entry points to ../build/launch_robot/launch_robot.egg-info/entry_points.txt
+[4.727s] writing requirements to ../build/launch_robot/launch_robot.egg-info/requires.txt
+[4.727s] writing top-level names to ../build/launch_robot/launch_robot.egg-info/top_level.txt
+[4.731s] reading manifest file '../build/launch_robot/launch_robot.egg-info/SOURCES.txt'
+[4.732s] adding license file 'LICENSE'
+[4.734s] writing manifest file '../build/launch_robot/launch_robot.egg-info/SOURCES.txt'
+[4.736s] running build
+[4.737s] running build_py
+[4.737s] running install
+[4.738s] running install_lib
+[4.748s] running install_data
+[4.748s] running install_egg_info
+[4.760s] removing '/home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/lib/python3.10/site-packages/launch_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[4.761s] Copying ../build/launch_robot/launch_robot.egg-info to /home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/lib/python3.10/site-packages/launch_robot-0.0.0-py3.10.egg-info
+[4.763s] running install_scripts
+[4.887s] writing list of installed files to '/home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/install.log'
+[4.983s] Invoked command in '/home/roboracing/Desktop/roboracing-rigatoniv-base/launch_robot' returned '0': PYTHONPATH=/home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/launch_robot build --build-base /home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/build install --record /home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/install.log --single-version-externally-managed install_data

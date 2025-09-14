@@ -25,9 +25,12 @@ public:
     io_service.run();
     subscription_ = this->create_subscription<ackermann_msgs::msg::AckermannDriveStamped>("/comms/drive", 10, std::bind(&UDPClient::udp_callback, this, std::placeholders::_1));
     state_publisher_ = this->create_publisher<std_msgs::msg::String>("kart/state", 10);
+    // timer_ = this->create_wall_timer(
+    //     std::chrono::milliseconds(500),
+    //     std::bind(&UDPClient::handle_receive, this));
     time_t timestamp;
     time(&timestamp);
-    state_log_file_output.open("state_log" + std::string(timestamp) + ".txt")
+    // state_log_file_output.open("state_log" + std::string(timestamp) + ".txt")
     do_receive();
    }
 private:
@@ -74,12 +77,12 @@ private:
         // ANGLE=%f;SPEED=%f;STATE=<STOPPED|OFF|MANUAL|AUTONOMOUS>
         time_t timestamp;
         time(&timestamp);
-        state_log_file_output << ctime(&timestamp) << "," << incoming << std::endl; 
-        if (split_info[2].compare(std::string("STOPPED")) == 0)
-        {
-            state_log_file_output.close();
-            rclcpp::shutdown();
-        }
+        // state_log_file_output << ctime(&timestamp) << "," << incoming << std::endl; 
+        // if (split_info[2].compare(std::string("STOPPED")) == 0)
+        // {
+        //     state_log_file_output.close();
+        //     rclcpp::shutdown();
+        // }
         
         auto message = std_msgs::msg::String();
         message.data = incoming;
@@ -87,6 +90,13 @@ private:
 
     if (!error || error == boost::asio::error::message_size)
         do_receive();
+    }
+
+    void state_test_publisher()
+    {
+        auto message = std_msgs::msg::String();
+        message.data = std::string("ANGLE=67;SPEED=41;STATE=AUTONOMOUS");
+        state_publisher_->publish(message);
     }
     
     std::vector<std::string> splitString(const std::string& input, char delimiter)

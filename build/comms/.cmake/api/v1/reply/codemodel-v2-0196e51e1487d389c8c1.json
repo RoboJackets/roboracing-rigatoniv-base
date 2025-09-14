@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-047833dfbbbb813e8737.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "comms",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ackermann_send::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ackermann_send-1116fe15b8b62424f6be.json",
+					"name" : "ackermann_send",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "comms::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-comms-b944330c6be4aa59fb03.json",
+					"name" : "comms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "comms_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-comms_uninstall-cbd1a5a8f0e6c89e173e.json",
+					"name" : "comms_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udp-3805cee92b1c37dfc27b.json",
+					"name" : "udp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d49a0dc26e232dd784ff.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/roboracing/Desktop/roboracing-rigatoniv-base/build/comms",
+		"source" : "/home/roboracing/Desktop/roboracing-rigatoniv-base/comms"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

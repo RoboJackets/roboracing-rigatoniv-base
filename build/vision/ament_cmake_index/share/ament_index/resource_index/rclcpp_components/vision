@@ -1,0 +1,3 @@
+vision::ConeDetectionNode;lib/libvision.so
+vision::LineDetectionNode;lib/libvision.so
+vision::VideoNode;lib/libvision.so

@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target comms[0m
+[ 42%] Built target udp
+[ 57%] Built target ackermann_send
+[ 71%] [32mBuilding CXX object CMakeFiles/comms.dir/src/udp_client.cpp.o[0m

@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target comms[0m
+[ 28%] Built target udp
+[ 57%] Built target ackermann_send
+[100%] Built target comms
+-- Install configuration: ""
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/lib/libcomms.so
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/lib/comms/udp
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/lib/comms/ackermann_send
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/comms//launch
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/comms//launch/comms_launch.py
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/ament_index/resource_index/package_run_dependencies/comms
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/ament_index/resource_index/parent_prefix_path/comms
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/comms/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/comms/environment/path.dsv
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/comms/local_setup.bash
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/comms/local_setup.sh
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/comms/local_setup.zsh
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/comms/local_setup.dsv
+-- Installing: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/comms/package.dsv
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/ament_index/resource_index/packages/comms
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/ament_index/resource_index/rclcpp_components/comms
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/comms/cmake/commsConfig.cmake
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/comms/cmake/commsConfig-version.cmake
+-- Up-to-date: /home/roboracing/Desktop/roboracing-rigatoniv-base/install/comms/share/comms/package.xml

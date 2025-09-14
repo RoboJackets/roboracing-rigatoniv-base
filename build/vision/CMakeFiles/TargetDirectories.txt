@@ -1,0 +1,13 @@
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/vision/CMakeFiles/uninstall.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/vision/CMakeFiles/vision_uninstall.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/vision/CMakeFiles/vision.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/vision/CMakeFiles/cone.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/vision/CMakeFiles/line.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/vision/CMakeFiles/video.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/vision/CMakeFiles/test.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/vision/CMakeFiles/edit_cache.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/vision/CMakeFiles/rebuild_cache.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/vision/CMakeFiles/list_install_components.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/vision/CMakeFiles/install.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/vision/CMakeFiles/install/local.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/vision/CMakeFiles/install/strip.dir

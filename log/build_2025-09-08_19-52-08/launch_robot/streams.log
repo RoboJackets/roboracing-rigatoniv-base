@@ -1,0 +1,36 @@
+[3.490s] Invoking command in '/home/roboracing/Desktop/roboracing-rigatoniv-base/launch_robot': PYTHONPATH=/home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/launch_robot build --build-base /home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/build install --record /home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/install.log --single-version-externally-managed install_data
+[4.628s] running egg_info
+[4.629s] creating ../build/launch_robot/launch_robot.egg-info
+[4.630s] writing ../build/launch_robot/launch_robot.egg-info/PKG-INFO
+[4.631s] writing dependency_links to ../build/launch_robot/launch_robot.egg-info/dependency_links.txt
+[4.632s] writing entry points to ../build/launch_robot/launch_robot.egg-info/entry_points.txt
+[4.632s] writing requirements to ../build/launch_robot/launch_robot.egg-info/requires.txt
+[4.633s] writing top-level names to ../build/launch_robot/launch_robot.egg-info/top_level.txt
+[4.634s] writing manifest file '../build/launch_robot/launch_robot.egg-info/SOURCES.txt'
+[4.638s] reading manifest file '../build/launch_robot/launch_robot.egg-info/SOURCES.txt'
+[4.638s] adding license file 'LICENSE'
+[4.639s] writing manifest file '../build/launch_robot/launch_robot.egg-info/SOURCES.txt'
+[4.640s] running build
+[4.641s] running build_py
+[4.642s] creating /home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/build
+[4.642s] creating /home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/build/lib
+[4.642s] creating /home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/build/lib/launch_robot
+[4.643s] copying launch_robot/__init__.py -> /home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/build/lib/launch_robot
+[4.643s] running install
+[4.643s] running install_lib
+[4.645s] creating /home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/lib/python3.10/site-packages/launch_robot
+[4.646s] copying /home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/build/lib/launch_robot/__init__.py -> /home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/lib/python3.10/site-packages/launch_robot
+[4.651s] byte-compiling /home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/lib/python3.10/site-packages/launch_robot/__init__.py to __init__.cpython-310.pyc
+[4.651s] running install_data
+[4.651s] creating /home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/share/ament_index
+[4.652s] creating /home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/share/ament_index/resource_index
+[4.652s] creating /home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/share/ament_index/resource_index/packages
+[4.652s] copying resource/launch_robot -> /home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/share/ament_index/resource_index/packages
+[4.652s] copying package.xml -> /home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/share/launch_robot
+[4.652s] creating /home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/share/launch_robot/launch
+[4.652s] copying launch/test.launch.py -> /home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/share/launch_robot/launch
+[4.653s] running install_egg_info
+[4.662s] Copying ../build/launch_robot/launch_robot.egg-info to /home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/lib/python3.10/site-packages/launch_robot-0.0.0-py3.10.egg-info
+[4.664s] running install_scripts
+[4.760s] writing list of installed files to '/home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/install.log'
+[4.844s] Invoked command in '/home/roboracing/Desktop/roboracing-rigatoniv-base/launch_robot' returned '0': PYTHONPATH=/home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboracing/Desktop/roboracing-rigatoniv-base/install/launch_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/launch_robot build --build-base /home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/build install --record /home/roboracing/Desktop/roboracing-rigatoniv-base/build/launch_robot/install.log --single-version-externally-managed install_data

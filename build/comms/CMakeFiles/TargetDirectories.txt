@@ -1,0 +1,12 @@
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/comms/CMakeFiles/uninstall.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/comms/CMakeFiles/comms_uninstall.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/comms/CMakeFiles/comms.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/comms/CMakeFiles/udp.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/comms/CMakeFiles/ackermann_send.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/comms/CMakeFiles/test.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/comms/CMakeFiles/edit_cache.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/comms/CMakeFiles/rebuild_cache.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/comms/CMakeFiles/list_install_components.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/comms/CMakeFiles/install.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/comms/CMakeFiles/install/local.dir
+/home/roboracing/Desktop/roboracing-rigatoniv-base/build/comms/CMakeFiles/install/strip.dir
